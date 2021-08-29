@@ -1,0 +1,54 @@
+.section {
+  background-color: #fff;
+  box-shadow: 0px 4px 16px;
+  border-radius: 5px;
+  width: 250px;
+  padding-top: 20px;
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.statistics {
+  width: 300px;
+  box-shadow: 0px 8px 16px;
+  margin-left: 40px;
+  margin-bottom: 60px;
+}
+
+.title {
+  display: flex;
+  font-size: medium;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: rgb(26, 24, 24);
+}
+
+.stat_list {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0;
+}
+
+.stat_list_item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 8px;
+  width: 70px;
+  background-color: rgb(94, 129, 182);
+}
+
+.stat_list_item:nth-child(2n) {
+  background-color: darkmagenta;
+}
+
+.label {
+  color: #fff;
+  font-size: small;
+}
+
+.percentage {
+  color: #fff;
+}
