@@ -1,8 +1,10 @@
 import Profile from "components/Profile/Profile"
-import user from 'data/user.json'
 import StatisticList from "components/Statistic/StatisticList"
+import FriendList from "components/FriendList/FriendList"
 
+import user from 'data/user.json'
 import statisticalData from './data/statistical-data.json'
+import friends from './data/friends.json'
 
 export default function App() {
     return <div>
@@ -14,6 +16,7 @@ export default function App() {
             stats={user.stats} />
         
         <StatisticList stats={statisticalData} />
+        <FriendList friends={friends} />
 
     </div>
 }
