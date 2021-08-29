@@ -1,0 +1,27 @@
+.transaction_history {
+  box-shadow: 0px 8px 33px grey;
+  margin-left: 40px;
+}
+
+.thead_row {
+  background-color: rgb(123, 193, 233);
+}
+
+.thead_row_title {
+  color: #fff;
+  text-transform: uppercase;
+  width: 180px;
+  padding: 4px 12px;
+}
+
+.trow {
+  text-align: center;
+}
+
+.trow:nth-child(2n) {
+  background-color: #bde7f3;
+}
+
+.trow_data {
+  text-transform: capitalize;
+}
