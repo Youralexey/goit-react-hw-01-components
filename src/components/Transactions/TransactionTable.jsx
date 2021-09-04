@@ -1,4 +1,4 @@
-import css from './Transaction.module.css';
+import css from "./Transaction.module.css";
 
 export default function TransactionTable({ id, type, amount, currency }) {
   return (

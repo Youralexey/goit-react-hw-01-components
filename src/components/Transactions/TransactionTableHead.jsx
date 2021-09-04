@@ -1,11 +1,11 @@
-import css from './Transaction.module.css';
+import css from "./Transaction.module.css";
 
 export default function TransactionTableHead() {
-    return (
-        <tr className={css.thead_row}>
-            <th className={css.thead_row_title}>Type</th>
-            <th className={css.thead_row_title}>Amount</th>
-            <th className={css.thead_row_title}>Currency</th>
-        </tr>
-    )
+  return (
+    <tr className={css.thead_row}>
+      <th className={css.thead_row_title}>Type</th>
+      <th className={css.thead_row_title}>Amount</th>
+      <th className={css.thead_row_title}>Currency</th>
+    </tr>
+  );
 }
